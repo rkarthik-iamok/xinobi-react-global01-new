@@ -1,0 +1,74 @@
+/*
+ * Copyright (c) 2021-Present, Okta, Inc. and/or its affiliates. All rights reserved.
+ * The Okta software accompanied by this notice is provided pursuant to the Apache License, Version 2.0 (the "License.")
+ *
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *
+ * See the License for the specific language governing permissions and limitations under the License.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f2b388;
+}
+
+.fed-login {
+  background-color: white;
+  padding: 10px;
+}
+
+.signup-login {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th,
+td {
+  border: 1px solid black;
+  background-color: white;
+  padding: 8px;
+  text-align: center;
+  max-width: 550px;
+}
+th {
+  background-color: #555;
+  color: white;
+}
+
+.table-cell {
+  word-wrap: break-word; /* or 'normal' to wrap only at spaces */
+}
+
+.div-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.left-div {
+  padding: 20px;
+  min-width: 550px;
+}
+
+.right-div {
+  padding: 20px;
+  width: 100%;
+  min-width: 700px;
+}
+
+.custom-container {
+  margin-top: 7em !important;
+  max-width: 100% !important;
+}
