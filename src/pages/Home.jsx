@@ -64,15 +64,32 @@ const Home = () => {
       <div className="div-container">
         <div className="left-div">
           <div>
-            <Header as="h1">Data Residency Demo - Scenario 1</Header>
-            <Header as="h3">
-              Application Directory Page - Choose Country for Store
-            </Header>
+            <Header as="h1">Data Residency Demo</Header>
+            <Header as="h2">Scenario 1 - Local Apps</Header>
+
             <p>
               <span>
-                From Identity perspective, each store (country/region) is an
-                Individual Okta application bound to the Okta tenant of that
-                region.
+                Alcon Application that is offered in multiple countries/regions,
+                are individual Okta Applications. For example <br />
+                <strong>
+                  <i>
+                    This DEMO application is offered in three countries/regions.
+                  </i>
+                </strong>
+                <ul>
+                  <li>
+                    United States - (US Store) &#8594;{" "}
+                    <strong>US Okta Tenant</strong>{" "}
+                  </li>
+                  <li>
+                    France - (France Store) &#8594;{" "}
+                    <strong>EMEA Okta Tenant</strong>{" "}
+                  </li>
+                  <li>
+                    Japan - (Japan Store) &#8594;{" "}
+                    <strong>APAC Okta Tenant</strong>{" "}
+                  </li>
+                </ul>
               </span>
             </p>
 
