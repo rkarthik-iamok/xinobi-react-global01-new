@@ -106,19 +106,25 @@ const Home = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>CIAM Hub</td>
+                    <td>
+                      <strong>Okta US tenant - Hub</strong>
+                    </td>
                     <td>
                       <a href={hub}>{hub}</a>
                     </td>
                   </tr>
                   <tr>
-                    <td>Spoke 01</td>
+                    <td>
+                      <strong>Okta APAC tenant - Spoke 01</strong>
+                    </td>
                     <td>
                       <a href={spoke01}>{spoke01}</a>
                     </td>
                   </tr>
                   <tr>
-                    <td>Spoke 02</td>
+                    <td>
+                      <strong>Okta EMEA tenant - Spoke 02</strong>
+                    </td>
                     <td>
                       <a href={spoke02}>{spoke02}</a>
                     </td>
